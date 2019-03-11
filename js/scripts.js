@@ -24,6 +24,5 @@ $(document).ready(function() {
     var outputList = pingOrPong(number)
       $("#yourNumbers").show();
   $("form#ping-pong").get(0).reset();
-  }
   });
 });
