@@ -23,6 +23,7 @@ $(document).ready(function() {
     var number = parseInt($("input#number").val());
     var outputList = pingOrPong(number)
       $("#yourNumbers").show();
-  $("form#ping-pong").get(0).reset();  
+  $("form#ping-pong").get(0).reset();
+  }
   });
 });
