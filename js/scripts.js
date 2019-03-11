@@ -9,14 +9,13 @@ $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
     var num1 = $("#number").val();
+    let array =[];
 
-
-    if(isNaN(num1)) {
-      alert(num1 + " is not a number");
-    }else{
-      $("#yourNumbers").show();
-      $("ul").prepend(num1);
-      
+    for (var index = 1; index <= num1; index ++) {
+      array.push(index);
     }
-  })
-})
+      $("#yourNumbers").show();
+      $("ul").prepend(array);
+
+  });
+});
