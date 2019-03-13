@@ -1,4 +1,4 @@
-# _Ping-Ping_
+# _Ping-Pong_
 
 #### _Enter a number and the page will count to it but every number divisible by 3 is replaced with "ping", every number divisible by 5 is replace by "pong" and every number divisible by 15 is replaced with "pingpong", 3/6/19_
 

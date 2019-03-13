@@ -20,6 +20,7 @@ var pingOrPong = function(number) {
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
+    $(".list").empty();
     var number = parseInt($("input#number").val());
     var outputList = pingOrPong(number)
       $("#yourNumbers").show();
